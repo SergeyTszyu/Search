@@ -32,16 +32,26 @@
     self.navigationController.navigationBar.translucent = NO;
     self.view.backgroundColor = [UIColor colorWithRed:31.0/255.0 green:31.0/255.0 blue:31.0/255.0 alpha:1];
     
+    
     UIImage *image = [[UIImage imageNamed:@"back.pdf"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(backAction:)];
     self.navigationItem.leftBarButtonItem = backButton;
     
-    self.navigationController.navigationItem.title = @"ADD FRIENDS";
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Medium" size:12]};
     
-    self.tableView.sectionIndexBackgroundColor = [UIColor colorWithRed:31.0/255.0 green:31.0/255.0 blue:31.0/255.0 alpha:1];
-    // df
+    self.navigationItem.title = @"ADD FRIENDS";
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont fontWithName:@"Montserrat-Regular" size:12]};
+
+    
+    self.tableView.sectionIndexBackgroundColor = [UIColor colorWithRed:31.0/255.0 green:31.0/255.0 blue:31.0/255.0 alpha:0];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 43, self.searchBar.frame.size.width, 1)];
+    view.backgroundColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:0.5];
+    [self.searchBar addSubview:view];
+    
+    
 }
+
+
 
 - (void) createTestData {
     NSMutableArray *array = [NSMutableArray array];
@@ -153,7 +163,7 @@
     
     [headerView setBackgroundColor:[UIColor colorWithRed:31.0/255.0 green:31.0/255.0 blue:31.0/255.0 alpha:1]];
     UILabel *myLabel = [[UILabel alloc] init];
-    myLabel.frame = CGRectMake(10, 8, 320, 11);
+    myLabel.frame = CGRectMake(14, 8, 320, 11);
     myLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:12];
     myLabel.text = [self tableView:tableView titleForHeaderInSection:section];
     myLabel.textColor = [UIColor colorWithRed:0 green:174.0/255.0 blue:239.0/255.0 alpha:1];

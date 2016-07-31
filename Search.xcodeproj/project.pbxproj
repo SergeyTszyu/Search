@@ -18,9 +18,14 @@
 		BB4F51541D4E55EE00BFAF05 /* MemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB4F51521D4E55EE00BFAF05 /* MemberCell.xib */; };
 		BB4F51571D4E610800BFAF05 /* NSString+Users.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F51561D4E610800BFAF05 /* NSString+Users.m */; };
 		BB4F515A1D4E618200BFAF05 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F51591D4E618200BFAF05 /* Section.m */; };
+		BB5AD9D51D4E9BCE00A30609 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB5AD9D31D4E9B8F00A30609 /* Montserrat-Bold.ttf */; };
+		BB5AD9D61D4E9BD100A30609 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB5AD9D41D4E9B8F00A30609 /* Montserrat-Regular.ttf */; };
+		C7E41C105A83F2107E62C7E4 /* Pods_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4590605036E8825B3F356106 /* Pods_Search.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4590605036E8825B3F356106 /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4F51291D4E532600BFAF05 /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4F512D1D4E532600BFAF05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB4F512F1D4E532600BFAF05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +44,9 @@
 		BB4F51561D4E610800BFAF05 /* NSString+Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Users.m"; sourceTree = "<group>"; };
 		BB4F51581D4E618200BFAF05 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
 		BB4F51591D4E618200BFAF05 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		BB5AD9D31D4E9B8F00A30609 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../Downloads/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		BB5AD9D41D4E9B8F00A30609 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,17 +54,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E41C105A83F2107E62C7E4 /* Pods_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF03FD06932B1BAFF4D389A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */,
+				EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C3DE8D126F8C55F34EBBE40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4590605036E8825B3F356106 /* Pods_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB4F51201D4E532600BFAF05 = {
 			isa = PBXGroup;
 			children = (
 				BB4F512B1D4E532600BFAF05 /* Search */,
 				BB4F512A1D4E532600BFAF05 /* Products */,
+				2FF03FD06932B1BAFF4D389A /* Pods */,
+				9C3DE8D126F8C55F34EBBE40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +113,8 @@
 				BB4F51561D4E610800BFAF05 /* NSString+Users.m */,
 				BB4F51581D4E618200BFAF05 /* Section.h */,
 				BB4F51591D4E618200BFAF05 /* Section.m */,
+				BB5AD9D31D4E9B8F00A30609 /* Montserrat-Bold.ttf */,
+				BB5AD9D41D4E9B8F00A30609 /* Montserrat-Regular.ttf */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -123,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB4F51401D4E532600BFAF05 /* Build configuration list for PBXNativeTarget "Search" */;
 			buildPhases = (
+				85FCBE1FEB50D7E519E329B6 /* [CP] Check Pods Manifest.lock */,
 				BB4F51251D4E532600BFAF05 /* Sources */,
 				BB4F51261D4E532600BFAF05 /* Frameworks */,
 				BB4F51271D4E532600BFAF05 /* Resources */,
+				7625C1833E924B1BE83E71E6 /* [CP] Embed Pods Frameworks */,
+				73875C4EF81E39460AB677AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5AD9D51D4E9BCE00A30609 /* Montserrat-Bold.ttf in Resources */,
+				BB5AD9D61D4E9BD100A30609 /* Montserrat-Regular.ttf in Resources */,
 				BB4F513C1D4E532600BFAF05 /* LaunchScreen.storyboard in Resources */,
 				BB4F51441D4E547300BFAF05 /* images.xcassets in Resources */,
 				BB4F51541D4E55EE00BFAF05 /* MemberCell.xib in Resources */,
@@ -182,6 +217,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73875C4EF81E39460AB677AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Search/Pods-Search-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7625C1833E924B1BE83E71E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Search/Pods-Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FCBE1FEB50D7E519E329B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB4F51251D4E532600BFAF05 /* Sources */ = {
@@ -303,6 +386,7 @@
 		};
 		BB4F51411D4E532600BFAF05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Search/Info.plist;
@@ -315,6 +399,7 @@
 		};
 		BB4F51421D4E532600BFAF05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Search/Info.plist;
@@ -344,6 +429,7 @@
 				BB4F51421D4E532600BFAF05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

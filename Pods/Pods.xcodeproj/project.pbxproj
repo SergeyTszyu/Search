@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E0F0B3E284B5CB9E29F68B5C66D015 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		6180B6FEF91CF2AB7A5B24B2B033EAF5 /* Pods-Search-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD92C1492AC1E61E73CC5A5AA92C91 /* Pods-Search-dummy.m */; };
+		7F4B86058F86D8AAE2134A3241A878EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		9D2C8CE45A929031F2314B4F0F952075 /* Pods-Search-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F61B0377169AC6D97E6BD16B8B63A81C /* Pods-Search-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E688F19F1C471688DBFB749750AF8993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+		F36F4C68D13436AFEE10ACCC32E2884E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		FAC868F37F9149AD745CC810F8C8C9AE /* Montserrat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A375D8E21034D106CCDBA01C702BB1D /* Montserrat.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6096CBFC877486630B72648FFAACC24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C16539313FBE2531343944999629A8;
+			remoteInfo = Montserrat;
+		};
+		EA00A2A67A83D2FF26DC719CB12432F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AFC3F4856EFCACD952AC543AD79D52;
+			remoteInfo = "Montserrat-Montserrat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A375D8E21034D106CCDBA01C702BB1D /* Montserrat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Montserrat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		210A3CB987F724C3139D8562E67F644D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2554EA1D4EB030A3CE88993F254EE6EF /* Pods-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Search.release.xcconfig"; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FD92C1492AC1E61E73CC5A5AA92C91 /* Pods-Search-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Search-dummy.m"; sourceTree = "<group>"; };
+		9E74BDD35F4DE45FA23D70979CC36441 /* Pods-Search-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Search-resources.sh"; sourceTree = "<group>"; };
+		A4DBF93CA8813A817CF01B925C5920EE /* Pods-Search-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Search-frameworks.sh"; sourceTree = "<group>"; };
+		B197E10E425712BC030034FF55B55871 /* Pods-Search.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Search.modulemap"; sourceTree = "<group>"; };
+		CCAC2B80F2BC91CCAFEE1146C7632EAC /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A843AF0F67B541FA01F97CD3C63349 /* Pods-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Search.debug.xcconfig"; sourceTree = "<group>"; };
+		EEF46DEF3BB1322D9153D202E1635C97 /* Pods-Search-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Search-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F05D0A0766A42FD5D79B7FFF7173494E /* Pods-Search-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Search-acknowledgements.plist"; sourceTree = "<group>"; };
+		F61B0377169AC6D97E6BD16B8B63A81C /* Pods-Search-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Search-umbrella.h"; sourceTree = "<group>"; };
+		F77526B60F0119CAEDA213CF30AF301D /* Montserrat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Montserrat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05055FE0C87C98B732384CBA77358E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0F0B3E284B5CB9E29F68B5C66D015 /* CoreText.framework in Frameworks */,
+				7F4B86058F86D8AAE2134A3241A878EF /* Foundation.framework in Frameworks */,
+				E688F19F1C471688DBFB749750AF8993 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A721DD2912767F5C38C234EB1AC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36F4C68D13436AFEE10ACCC32E2884E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6890FAEC9A6350EAD86C91D9D400899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B9C663647F55AFE090627938AF5ACB2D /* Pods */,
+				FA9AFB5CF30CC61F874E767ED681A58D /* Products */,
+				9BDA57DA5EA0509E5C7E92B1446C5DE6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDA57DA5EA0509E5C7E92B1446C5DE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B52D2B54FA4BBE89FB0E33C3E3BD23C6 /* Pods-Search */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B52D2B54FA4BBE89FB0E33C3E3BD23C6 /* Pods-Search */ = {
+			isa = PBXGroup;
+			children = (
+				210A3CB987F724C3139D8562E67F644D /* Info.plist */,
+				B197E10E425712BC030034FF55B55871 /* Pods-Search.modulemap */,
+				EEF46DEF3BB1322D9153D202E1635C97 /* Pods-Search-acknowledgements.markdown */,
+				F05D0A0766A42FD5D79B7FFF7173494E /* Pods-Search-acknowledgements.plist */,
+				94FD92C1492AC1E61E73CC5A5AA92C91 /* Pods-Search-dummy.m */,
+				A4DBF93CA8813A817CF01B925C5920EE /* Pods-Search-frameworks.sh */,
+				9E74BDD35F4DE45FA23D70979CC36441 /* Pods-Search-resources.sh */,
+				F61B0377169AC6D97E6BD16B8B63A81C /* Pods-Search-umbrella.h */,
+				E4A843AF0F67B541FA01F97CD3C63349 /* Pods-Search.debug.xcconfig */,
+				2554EA1D4EB030A3CE88993F254EE6EF /* Pods-Search.release.xcconfig */,
+			);
+			name = "Pods-Search";
+			path = "Target Support Files/Pods-Search";
+			sourceTree = "<group>";
+		};
+		B9C663647F55AFE090627938AF5ACB2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA9AFB5CF30CC61F874E767ED681A58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A375D8E21034D106CCDBA01C702BB1D /* Montserrat.bundle */,
+				F77526B60F0119CAEDA213CF30AF301D /* Montserrat.framework */,
+				CCAC2B80F2BC91CCAFEE1146C7632EAC /* Pods_Search.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6ED1B8C027CB6E53C7ACDAB3AD7DB143 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2C8CE45A929031F2314B4F0F952075 /* Pods-Search-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3C0F10CA045309391C5018120D0C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E1E1D3803B1502B85A6285F55F8716B /* Pods-Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB03ED1D96CEB74794544413471AC470 /* Build configuration list for PBXNativeTarget "Pods-Search" */;
+			buildPhases = (
+				E14ABF2A8FC366CB23FDEDB46EFFD5DF /* Sources */,
+				B35A721DD2912767F5C38C234EB1AC8A /* Frameworks */,
+				6ED1B8C027CB6E53C7ACDAB3AD7DB143 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B249DA16B84E4036A00714C742339F24 /* PBXTargetDependency */,
+			);
+			name = "Pods-Search";
+			productName = "Pods-Search";
+			productReference = CCAC2B80F2BC91CCAFEE1146C7632EAC /* Pods_Search.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34C16539313FBE2531343944999629A8 /* Montserrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB5CF981A20F4353619BBB25D9E8788 /* Build configuration list for PBXNativeTarget "Montserrat" */;
+			buildPhases = (
+				09C077BAB13A6651ADDF88CA1D316E4E /* Sources */,
+				05055FE0C87C98B732384CBA77358E9E /* Frameworks */,
+				932579DC2FEF4EA7F4CA3ADD1A0EB362 /* Resources */,
+				8AD3C0F10CA045309391C5018120D0C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB63DB485AE2EA6622DBE22DDC70E70 /* PBXTargetDependency */,
+			);
+			name = Montserrat;
+			productName = Montserrat;
+			productReference = F77526B60F0119CAEDA213CF30AF301D /* Montserrat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84AFC3F4856EFCACD952AC543AD79D52 /* Montserrat-Montserrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC1FBEAE217B0F886BD57B45E2512CE /* Build configuration list for PBXNativeTarget "Montserrat-Montserrat" */;
+			buildPhases = (
+				703E72B1FC34ACCFF6A6707B20FA05FA /* Sources */,
+				D6890FAEC9A6350EAD86C91D9D400899 /* Frameworks */,
+				30C189F2205A99208777E4D93AA7B173 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Montserrat-Montserrat";
+			productName = "Montserrat-Montserrat";
+			productReference = 1A375D8E21034D106CCDBA01C702BB1D /* Montserrat.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FA9AFB5CF30CC61F874E767ED681A58D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C16539313FBE2531343944999629A8 /* Montserrat */,
+				84AFC3F4856EFCACD952AC543AD79D52 /* Montserrat-Montserrat */,
+				2E1E1D3803B1502B85A6285F55F8716B /* Pods-Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C189F2205A99208777E4D93AA7B173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932579DC2FEF4EA7F4CA3ADD1A0EB362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC868F37F9149AD745CC810F8C8C9AE /* Montserrat.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C077BAB13A6651ADDF88CA1D316E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703E72B1FC34ACCFF6A6707B20FA05FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14ABF2A8FC366CB23FDEDB46EFFD5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6180B6FEF91CF2AB7A5B24B2B033EAF5 /* Pods-Search-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB63DB485AE2EA6622DBE22DDC70E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Montserrat-Montserrat";
+			target = 84AFC3F4856EFCACD952AC543AD79D52 /* Montserrat-Montserrat */;
+			targetProxy = EA00A2A67A83D2FF26DC719CB12432F5 /* PBXContainerItemProxy */;
+		};
+		B249DA16B84E4036A00714C742339F24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Montserrat;
+			target = 34C16539313FBE2531343944999629A8 /* Montserrat */;
+			targetProxy = 6096CBFC877486630B72648FFAACC24B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E5633FD1C98677E19AEE7DF5AD8B494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Montserrat";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Montserrat/ResourceBundle-Montserrat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Montserrat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		657F50990A2C89E7D1DDD7576018FF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A843AF0F67B541FA01F97CD3C63349 /* Pods-Search.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Search;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2DB7938E627A3FC74E4968D40B3D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2554EA1D4EB030A3CE88993F254EE6EF /* Pods-Search.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Search/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Search/Pods-Search.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Search;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9710F3F539C27BF2E2D7D3649E8546A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Montserrat";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Montserrat/ResourceBundle-Montserrat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Montserrat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37EBCCCF14E9DA7D48CE5DE83B65741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Montserrat/Montserrat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Montserrat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Montserrat/Montserrat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Montserrat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDFCCA6FEC9DDBD5473B1124ED1846BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Montserrat/Montserrat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Montserrat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Montserrat/Montserrat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Montserrat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC1FBEAE217B0F886BD57B45E2512CE /* Build configuration list for PBXNativeTarget "Montserrat-Montserrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5633FD1C98677E19AEE7DF5AD8B494 /* Debug */,
+				9710F3F539C27BF2E2D7D3649E8546A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB5CF981A20F4353619BBB25D9E8788 /* Build configuration list for PBXNativeTarget "Montserrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37EBCCCF14E9DA7D48CE5DE83B65741 /* Debug */,
+				EDFCCA6FEC9DDBD5473B1124ED1846BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB03ED1D96CEB74794544413471AC470 /* Build configuration list for PBXNativeTarget "Pods-Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657F50990A2C89E7D1DDD7576018FF40 /* Debug */,
+				6A2DB7938E627A3FC74E4968D40B3D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -30,6 +30,13 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

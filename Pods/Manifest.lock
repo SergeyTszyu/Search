@@ -1,0 +1,12 @@
+PODS:
+  - Montserrat (1.0.0)
+
+DEPENDENCIES:
+  - Montserrat
+
+SPEC CHECKSUMS:
+  Montserrat: 05ccfd6f44aadfd81b2bc3655f759099983be06e
+
+PODFILE CHECKSUM: 2ebd7436fd77018f2bd3fd0fdf98f41f7fbc2f6a
+
+COCOAPODS: 1.0.1
