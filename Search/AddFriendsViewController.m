@@ -49,6 +49,8 @@
     [self.searchBar addSubview:view];
     
     
+    self.searchBar.placeholder=@"Search                                                        ";
+    
 }
 
 

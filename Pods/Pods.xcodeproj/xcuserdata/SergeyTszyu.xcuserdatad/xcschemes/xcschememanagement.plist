@@ -4,16 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Montserrat-Montserrat.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Montserrat.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Search.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E1E1D3803B1502B85A6285F55F8716B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>34C16539313FBE2531343944999629A8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>84AFC3F4856EFCACD952AC543AD79D52</key>
+		<key>D19650D721B42A9FBBC637959B874E7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

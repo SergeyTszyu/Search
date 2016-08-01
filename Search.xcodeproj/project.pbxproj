@@ -24,8 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07EC4574F5AACB9A162CBFD1 /* Pods-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.release.xcconfig"; sourceTree = "<group>"; };
 		4590605036E8825B3F356106 /* Pods_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.debug.xcconfig"; sourceTree = "<group>"; };
+		6CE7AB4447E9B8801BE56056 /* Pods-Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4F51291D4E532600BFAF05 /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4F512D1D4E532600BFAF05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB4F512F1D4E532600BFAF05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		BB4F51591D4E618200BFAF05 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
 		BB5AD9D31D4E9B8F00A30609 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../Downloads/Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		BB5AD9D41D4E9B8F00A30609 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-Search/Pods-Search.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		2FF03FD06932B1BAFF4D389A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */,
-				EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */,
+				6CE7AB4447E9B8801BE56056 /* Pods-Search.debug.xcconfig */,
+				07EC4574F5AACB9A162CBFD1 /* Pods-Search.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -386,7 +386,7 @@
 		};
 		BB4F51411D4E532600BFAF05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B7D5ED3128EBAE295D433F /* Pods-Search.debug.xcconfig */;
+			baseConfigurationReference = 6CE7AB4447E9B8801BE56056 /* Pods-Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Search/Info.plist;
@@ -399,7 +399,7 @@
 		};
 		BB4F51421D4E532600BFAF05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC696D89CBA097791C702ABC /* Pods-Search.release.xcconfig */;
+			baseConfigurationReference = 07EC4574F5AACB9A162CBFD1 /* Pods-Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Search/Info.plist;
